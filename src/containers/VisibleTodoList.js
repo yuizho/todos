@@ -5,7 +5,7 @@ import TodoList from '../components/TodoList'
 // stateをPropに伝える store -> view
 const mapStateToPtops = (state) => {
     return {
-        todos: state.todos
+        todos: state.todos.present
     }
 }
 
